@@ -6,7 +6,7 @@ Material for the NLP tutorial at the [Geo text mining workshop](https://ersa.org
 ## Tutorial Outline 
 
 1. NLP
-1.1. working with Spacy to analyze the linguistic structure of a text
+    1. working with Spacy to analyze the linguistic structure of a text
 2. Named Entity Classification
 3. Named Entitiy Linking and Geocoding
 4. Information Extraction using linguistic patterns
