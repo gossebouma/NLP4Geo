@@ -18,6 +18,11 @@ In this tutorial we will be using Python as programming language, and Jupyter no
 
 ### Installation of Python and Jupyter
 
+Installation instructions
+
+* Python ([download](https://www.python.org/downloads/), [installation](https://www.python.org/about/gettingstarted/))
+* [Jupyter](https://jupyter.org/install)
+
 
 ### Using Google colaboratory
 
@@ -25,9 +30,11 @@ If you do not have access to a computer where you can install Python/Jupyter, yo
 
 (Uploading documents, linking with google drive)
 
-## Libraries
+### Python Libraries
 
-1. Spacy (general purpose NLP toolkit) 
-2. Spacy models: English, English trf (maybe), other (Dutch)
-3. geocoder
+For NLP we will be using [Spacy](https://spacy.io/), an industry-strength general-purpose open-source framework for NLP. You will need to install the spacy (python) library, as well as at least one language model. 
+
+1. [Installation](https://spacy.io/usage) 
+2. Spacy models: By default, Spacy installation only installs the small (-sm) models for a language you selected (ie. en_core_web_sm). You can also install larger (and more accurate models) by follwing the instructions [here](https://spacy.io/usage/models).  The -trf (transformer) model for English is the most accurate for that language, but installation can be tricky (esp. if you have other versions of the python transformer libraries installed). Alternatively, you can also try the large English model. For other languages, transformer-based models are not always available (e.g. Dutch), for those languages the large models are also the most accurate.
+3. For access to geonames, we will use the [geocoder](https://pypi.org/project/geocoder/) Python library
 
