@@ -28,7 +28,7 @@ Installation instructions
 
 If you do not have access to a computer where you can install Python/Jupyter, you can also use [Google colaboratory](https://colab.research.google.com/notebooks/intro.ipynb), a cloud platform that supports working with Jupyter notebooks. The libraries mentioned below are available in colaboratory as well. 
 
-(Uploading documents, linking with google drive)
+You can upload the notebooks below into google colab and run them, or alternatively, or copy them to Google Drive, subfolder Colab Notebooks
 
 ### Python Libraries
 
